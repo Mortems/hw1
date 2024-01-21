@@ -3,111 +3,100 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
 
 .center {
-  padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 600px);
 }
 
-.top {
-  height: 100vh;
-  background-image: url(img/bg.png);
+.header {
+  background-image: url(./img/header_back.jpg);
+  background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  height: 1024px;
 }
-.top__content {
-  padding-top: 218px;
-  flex-shrink: 0;
-}
-.top__title {
-  max-width: 788px;
-  height: 125px;
+.header__heading {
   color: #FFF;
-  font-family: Montserrat;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 32px;
+  padding-top: 217px;
+  padding-bottom: 32px;
 }
-.top__info {
+.header__text {
   color: #FFF;
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 32px; /* 177.778% */
-  margin-bottom: 44px;
-}
-.top__info__span {
-  color: #da5959;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 32px;
 }
-.top__button {
+.header__text-bold {
+  font-weight: 700;
+}
+.header__button {
+  width: 235px;
+  height: 48px;
   border-radius: 30px;
   background: #9C0332;
-  width: 234.063px;
-  height: 48.603px;
-  flex-shrink: 0;
+  outline: none;
+  border: none;
   color: #FFF;
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border: none;
+  margin-top: 44px;
+  transition: background 0.3s;
   cursor: pointer;
 }
+.header__button:hover {
+  background: #EB443F;
+}
 
-.content {
-  padding-top: 128px;
-  display: flex;
-  flex-direction: row;
-  height: 556px;
+.game {
   background-color: #000915;
+  height: 556px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game__content {
+  display: flex;
   gap: 32px;
   flex-wrap: wrap;
 }
-.content__item {
-  width: 377px;
+.game__card {
   height: 300px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 16px;
-  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+  width: 377px;
   position: relative;
-  flex-shrink: 0;
-}
-.content__img {
-  width: 100%;
-}
-.content__info {
-  display: flex;
-  width: 79px;
-  height: 31.639px;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-  position: absolute;
-  top: 236px;
-  left: 32px;
-  color: #FFF;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 32px;
-  color: #FFF;
+  transition: border 0.3s;
   box-sizing: border-box;
-  font-family: Montserrat;
+}
+.game__card:hover {
+  border: 3px solid #44D2FF;
+  border-radius: 18px;
+}
+.game__image {
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+}
+.game__name {
+  color: #FFF;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
+  position: absolute;
+  left: 32px;
+  bottom: 32px;
 }/*# sourceMappingURL=style.css.map */
