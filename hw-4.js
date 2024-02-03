@@ -17,13 +17,11 @@ while (a < 5) {
 }
 
 /*третье задание*/
-
-let c = 7;
-while (c < 22) {
-    c++;
-    console.log(c)
+let u = 7
+while (u < 23) {
+  alert (число ${u});
+u++;
 }
-
 
 /*четвертое задание*/
 
@@ -40,14 +38,14 @@ for (let element in obj) {
 
 /*Пятое задание*/
 
-let num = 0;
-
-for (let i = 1000; i >= 50; i /= 2) {
-    num++;
-    console.log('Получилось число: ' + i + '.');
-}
-
-console.log('Всего итераций: ' + num);
+let m= 1000;
+let lum= 0;
+do {
+m = m / 2
+alert (число ${m})
+lum ++}
+while ( m >= 50)
+alert (числе итераций ${lum})
 
 /*Шестое задание (убейте меня)*/
 for (let dayNumber = 5; dayNumber <= 31; dayNumber += 7) {

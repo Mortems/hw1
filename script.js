@@ -6,40 +6,30 @@ alert(a);
 
 /*второе задание*/
 let firstIphone = 2007;
-alert(`Год выпуска первого айфона ${firstIphone}`);
+alert(`Год выпуска первого айфона ${firstIphone}!`);
 
 /*третье задание*/
 let bestJsMan = "Брендан Эйх";
-alert(`${bestJsMan}-создатель Js`);
+alert(bestJsMan);
 
 /*четвертое задание*/
 let b = 10;
 let c = 2;
-let sum = b + c;
-let dif = b - c;
-let product = b * c;
-let quotient = b / c;
-result = b / c;
-alert(
-  `Сумма ${sum}\nРазность ${dif}\nПроизведение ${product}\nЧастное ${quotient}`
-);
+alert (b + c)
+alert (b - c)
+alert (b * c)
+alert (b / c)
 
-/*четвертое задание*/
-let d = 10;
-let e = 2;
-alert(
-  `Сумма ${d + e}\nРазность ${d - e}\nПроизведение ${d * e}\nЧастное ${d / e}`
-);
+
 
 /*пятое задание*/
-let f = 2;
-let j = 5;
-alert(`Возводим в степень ${f ** j}`);
+let result = 2 ** 5 
+alert (result)
 
 /*Шестое задание*/
-a = 9;
-b = 2;
-alert(`Находим остаток от деления ${a / b}`);
+let m = 9
+let n = 2
+alert (m % n)
 
 /*седьмое задание*/
 let num = 1;
@@ -52,8 +42,9 @@ num--;
 alert(num);
 
 /*восьмое задание*/
-let age=Number (prompt("Сколько Вам лет?"));
-alert (age);
+let age = prompt ("Ваш возраст")
+alert (age)
+
 
 /*задания 9-9.4*/
 let user={name:"Джек Лондон",
