@@ -11,7 +11,7 @@ a++;
 /*второе задание*/
 
 let b = 0;
-while (a < 5) {
+while (b < 5) {
     b++;
     console.log(b)
 }
@@ -19,16 +19,16 @@ while (a < 5) {
 /*третье задание*/
 let u = 7
 while (u < 23) {
-  alert (число ${u});
+  alert (`число ${u}`);
 u++;
 }
 
 /*четвертое задание*/
 
 let obj = {
-    "Коля": "200"
-    "Вася": "300"
-    "Петя": "400"
+    "Коля": 200
+    "Вася": 300
+    "Петя": 400
 }
 
 for (let element in obj) {
@@ -42,10 +42,10 @@ let m= 1000;
 let lum= 0;
 do {
 m = m / 2
-alert (число ${m})
+alert (`число ${m}`)
 lum ++}
 while ( m >= 50)
-alert (числе итераций ${lum})
+alert (`числе итераций ${lum}`)
 
 /*Шестое задание (убейте меня)*/
 for (let dayNumber = 5; dayNumber <= 31; dayNumber += 7) {
